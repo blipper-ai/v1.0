@@ -7,4 +7,4 @@ st.set_page_config(layout="wide")
 # Function to process the uploaded CSV file
 df2 = pd.read_csv('./output_matrics (4).csv')
 st.title('Blipper v1.0')
-
+st.title('Blipper v1.0')
