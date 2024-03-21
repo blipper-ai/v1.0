@@ -81,6 +81,7 @@ def main():
                 cleaned_url = re.sub(pattern, '', url)
                 audio_file(url)
                 st.write(f"File {cleaned_url}.mp3 Downloaded!")
+                print()
 
 
 # import pandas as pd
